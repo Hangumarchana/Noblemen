@@ -422,3 +422,9 @@ footer{
     position: absolute;
     top:5000px;
 }
+#mainText{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
