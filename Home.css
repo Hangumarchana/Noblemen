@@ -7,6 +7,12 @@
     padding:0;
     box-sizing: border-box;
 }
+#mainText{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
 @font-face {
     font-family: 'AvenirLight';
     src: url('assets/Fonts/AvenirLight.ttf') format('truetype');
@@ -124,7 +130,7 @@
     display: block;
     opacity: 1;
     pointer-events: auto;
-    background-color: aliceblue;
+    background-color: #ffffff;
     width: 100vw;
     height: 50vh;
 }
@@ -258,7 +264,7 @@
     display: flex;
     flex-direction: row;
     gap:20vw;
-    background-color: aliceblue;
+    background-color: #ffffff;
     width: 100vw;
     height:50vh;
 
@@ -283,7 +289,7 @@
     display: flex!important;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #ffffff;
     width: 100vw;
     height: 50vh;
 }
@@ -421,10 +427,4 @@ header{
 footer{
     position: absolute;
     top:5000px;
-}
-#mainText{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: #ffffff;
 }
