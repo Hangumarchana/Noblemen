@@ -28,16 +28,16 @@
     updateSlider();
 }
 
-    // Autoplay
+
     function startAutoSlide() {
-    autoSlide = setInterval(nextSlide, 4000); // every 4s
+    autoSlide = setInterval(nextSlide, 4000); 
 }
 
     function stopAutoSlide() {
     clearInterval(autoSlide);
 }
 
-    // Event listeners
+
     rightArrow.addEventListener('click', () => {
     nextSlide();
     stopAutoSlide();

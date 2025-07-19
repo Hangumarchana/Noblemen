@@ -123,4 +123,3 @@ dropdowns.forEach(({ triggerId, menuId, arrowId }) => {
     menu.addEventListener('mouseleave', hideDropdown);
 });
 
-
