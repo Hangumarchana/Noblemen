@@ -369,7 +369,7 @@ body{
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    padding-top: 5vh;
+    padding-top: 7vh;
     z-index: -1;
 }
 
@@ -571,6 +571,7 @@ footer{
 #footerEmail{
     display:flex;
     flex-direction: column;
+    padding-top: 4vh;
 
 
 
@@ -654,4 +655,13 @@ footer{
     opacity: 0.5;
     cursor: pointer;
     transform: scale(1.1);
+}
+.Top{
+    font-family: 'playfair display', serif;
+    font-size: 18px!important;
+
+
+
+
+
 }
