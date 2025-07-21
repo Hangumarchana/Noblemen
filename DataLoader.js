@@ -1,6 +1,7 @@
 let CardGrid=document.querySelector('.gridContainer');
 let DataBase;
 
+
 async function fetchData() {
     try {
         const response = await fetch('Data.json');
@@ -61,6 +62,8 @@ async function main() {
 
 
     })
+
+
 
 }
 

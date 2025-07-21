@@ -10,6 +10,7 @@
 
 body{
     background-color: #fdfdfd;
+    overflow-x: hidden;
 }
 #mainText{
     font-family: 'Playfair Display', serif;
@@ -136,7 +137,9 @@ body{
     pointer-events: auto;
     background-color: #ffffff;
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3),
+    0 1px 3px rgba(0, 0, 0, 0.2);
 }
 #dropdown-content-2024,
 #dropdown-content-2020,
@@ -267,10 +270,12 @@ body{
 #CategoryDropDown{
     display: flex;
     flex-direction: row;
-    gap:20vw;
+    gap:4vw;
     background-color: #ffffff;
     width: 100vw;
-    height:50vh;
+    height:60vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3),
+    0 1px 3px rgba(0, 0, 0, 0.2);
 
 }
 #CategoryDropDown li:hover{
@@ -430,8 +435,9 @@ header{
     z-index:2;
 }
 footer{
-    position: absolute;
-    top:5000px;
+    position: relative;
+    top:100vh
+
 }
 #categorySelector{
     display: flex;
@@ -459,14 +465,14 @@ footer{
     left: 2.5vw;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3),
     0 1px 3px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease;
-    border-radius: 10px;
+
 
 
 }
 .rec2:hover{
     cursor: pointer;
-    transform: scale(1.1);
+
+
 
 }
 .rec2 p{
@@ -478,6 +484,9 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.rec2 p:hover{
+    text-decoration: underline!important;
 }
 .rec1 img{
 
@@ -494,11 +503,7 @@ footer{
 .arrow.right{
     display: none;
 }
-footer{
-    position: absolute!important;
 
-    background-color: red;
-}
 #footerRec{
     display: flex;
     flex-direction: row;
@@ -509,7 +514,7 @@ footer{
     width: 100vw;
     height:50vh;
     gap: 10vw;
-    padding-bottom: 10vh;
+
 }
 
 #main2{
@@ -637,7 +642,7 @@ footer{
 }
 #bottomLogo{
     position: absolute;
-    bottom: 22vh;
+    bottom: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -660,8 +665,364 @@ footer{
     font-family: 'playfair display', serif;
     font-size: 18px!important;
 
+}
+.TopName{
+    font-family: 'playfair display', serif;
+    font-size: 20px!important;
+    margin-left: 10vw;
+    position: relative;
+    top:-12vh;
+    text-decoration: underline;
+
+
+}
+#Picks{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:10vw;
+    margin-top: 5vh;
+    padding: 0;
+    line-height: 1;
+
+
 
 
 
 
 }
+.TopAward{
+    font-family: 'AvenirLight', sans-serif;
+    font-size:16px;
+    margin-left: 10vw;
+    position: relative;
+    top:-10vh;
+
+}
+.TopImg {
+
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+
+}
+.ImgDiv{
+    width:8vw;
+    height:16vh;
+    background-color: red;
+    overflow: hidden;
+
+}
+#sub-7{
+    position: relative;
+    top:-4vh;
+}
+.catRec{
+    position: relative;
+    top:10vh;
+    margin-left: 1vw;
+    width:20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.CatDiv{
+    width:8vw;
+    height: 16vh;
+    overflow: hidden;
+}
+.CatImg{
+    width:100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+.CatName{
+    font-family:'playfair display', serif;
+    font-size: 16px;
+    position: relative;
+    top:-16vh;
+    left:9vw;
+    text-decoration: underline;
+}
+.CatAward{
+    font-family: 'AvenirLight', sans-serif;
+    font-size:14px;
+    position: relative;
+    top:-1vh;
+}
+#pick1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#pick2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#pick3:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#viewAll{
+    display:block;
+    position: absolute;
+    top:55vh;
+    width: 10vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-family: 'AvenirLight', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 5vh;
+    border: none;
+    outline: none;
+    left: 1vw;
+}
+#viewAll:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hr1{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:10vh;
+}
+#TopGrid {
+    position: relative;
+    top:25vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1vw;
+    padding: 20px;
+}
+#HotGrid{
+    position: relative;
+    top:48vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1vw;
+    padding: 20px;
+}
+#RecentGrid{
+    position: relative;
+    top:75vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1vw;
+    padding: 20px;
+}
+
+.Card1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.Card2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+
+}
+.Card3{
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+
+}
+.Card1:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.Card2:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.Card3:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.TopDiv1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.HotDiv1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.RecentDiv1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.TopCategory {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px 0 5px;
+    font-family: 'playfair display', serif!important;
+}
+.TopCategory:hover{
+    opacity: 0.5;
+}
+.Winner {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+    font-family: 'playfair display', serif!important;
+
+}
+.Winner:hover{
+    text-decoration: underline;
+}
+
+.Reason {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    font-family: 'AvenirLight', sans-serif!important;
+}
+#TopHeading{
+    font-family: 'playfair display', serif;
+    font-size: 20px;
+    position: relative;
+    top:24vh;
+    left: 4.5vw;
+
+}
+.poster{
+    width: 80vw;
+    height: 80vh;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    top:15vh;
+}
+
+.posterImg{
+
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.posterBtn{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 16vw;
+    height: 8vh;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'playfair display', sans-serif;
+    transition: transform 0.2s ease;
+}
+.posterBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#hr1{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:20vh;
+}
+#hr2{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:30vh;
+
+}
+#hr3{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:40vh;
+}
+#TopHeading1{
+    font-family: 'playfair display', serif;
+    font-size: 20px;
+    position: relative;
+    top:45vh;
+    left: 4.5vw;
+}
+#poster2{
+    position: relative;
+    top:35vh;
+}
+#poster3{
+    position: relative;
+    top:60vh;
+}
+#hr4{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:55vh;
+}
+#TopHeading2{
+    font-family: 'playfair display', serif;
+    font-size: 20px;
+    position: relative;
+    top:70vh;
+    left: 4.5vw;
+}
+#hr5{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:65vh;
+}
+#hr6{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:80vh;
+}
+#hr7{
+    width:90vw;
+    margin: 0 auto;
+    position: relative;
+    top:95vh;
+}
+.fullVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:90vh;
+}
+

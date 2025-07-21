@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js" defer></script>
     <script src="slider.js" defer></script>
-    <script src="DataLoader.js" defer></script>
+    <script src="header.js" defer></script>
+    <script src="HomeDataLoader.js" defer></script>
 
 
 
@@ -133,12 +134,19 @@
 
             </li>
             <li class="dropdown">
-                <a   href="#" id="sub-7" class="Top">Top Picks</a>
-                <div>
-                    <p id="name"></p>
-                    <p  id="reason"></p>
+
+                <div id="Picks">
+                    <a   href="#" id="sub-7" class="Top">Top Picks</a>
+                    <div id="pick1">
+
+
+                    </div>
+                    <div id="pick2">
+
+                    </div>
 
                 </div>
+
             </li>
 
         </ul>
@@ -146,13 +154,30 @@
     </div>
     <div id="CategoryRec">
         <ul id="CategoryDropDown">
-            <li><a href="#">Chemistry</a></li>
-            <li><a href="#">Physics</a></li>
-            <li><a href="#">Medicine</a></li>
-            <li><a href="#">Peace</a></li>
+            <li><a href="#">Chemistry</a>
+                <div id="cat1" class="catRec">
+
+                </div>
+            </li>
+            <li><a href="#">Physics</a>
+                <div id="cat2" class="catRec">
+
+                </div>
+            </li>
+            <li><a href="#">Medicine</a>
+                <div id="cat3" class="catRec" >
+
+                </div>
+            </li>
+            <li><a href="#">Peace</a>
+                <div id="cat4" class="catRec">
+
+                </div>
+            </li>
 
 
         </ul>
+        <button id="viewAll">Show All Results</button>
     </div>
 
     <div id="SearchRec">
@@ -240,6 +265,62 @@
 
 
 </div>
+
+<hr class="hr1">
+<div class="poster">
+    <img class="posterImg" src="assets/Pics/0.png" alt="poster"/>
+    <button class="posterBtn">Explore</button>
+
+</div>
+<hr id="hr1">
+<p id="TopHeading">Top Picks</p>
+
+
+
+<div id="TopPicks">
+    <div id="TopGrid">
+
+    </div>
+
+
+</div>
+
+<hr id="hr2">
+<div id="poster2" class="poster">
+    <img class="posterImg" src="assets/Pics/1.png" alt="poster"/>
+    <button class="posterBtn">Explore</button>
+
+</div>
+<hr id="hr3">
+<p id="TopHeading1">Hot Winners</p>
+
+<div id="HotWinner">
+    <div id="HotGrid">
+
+    </div>
+
+</div>
+<hr id="hr4">
+<div id="poster3" class="poster">
+    <img class="posterImg" src="assets/Pics/2.png" alt="poster"/>
+    <button class="posterBtn">Explore</button>
+
+</div>
+<hr id="hr5">
+<p id="TopHeading2">Recent Winners</p>
+
+<div id="RecentWinner">
+    <div id="RecentGrid">
+
+    </div>
+
+</div>
+<hr id="hr6">
+<video autoplay muted loop playsinline class="fullVideo">
+    <source src="assets/Videos/rashiii.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<hr id="hr7">
 <footer>
     <div id="footerRec">
 
