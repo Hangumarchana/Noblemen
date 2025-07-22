@@ -33,6 +33,7 @@ Filter2.addEventListener('mouseenter',()=>{
     SearchRec.classList.remove('showSearch');
     TimeRec.classList.remove('show');
     TopArrow1.classList.remove('rotateTopArrow');
+
 })
 CategoryRec.addEventListener('mouseenter',()=>{
     CategoryRec.classList.add('showCategory');
@@ -45,14 +46,24 @@ SearchLogo.addEventListener('click', function (event) {
     SearchRec.classList.add('showSearch');
 });
 document.addEventListener('click', function (event) {
-    if (SearchRec.classList.contains('showSearch') && !SearchRec.contains(event.target)) {
+    const isClickInsideSearchRec = SearchRec.contains(event.target);
+    const isClickInsideSearchGridRec = SearchGridRec.contains(event.target);
+
+    if (
+        SearchRec.classList.contains('showSearch') &&
+        SearchGridRec.classList.contains('showGrid') &&
+        !isClickInsideSearchRec &&
+        !isClickInsideSearchGridRec
+    ) {
         SearchRec.classList.remove('showSearch');
+        SearchGridRec.classList.remove('showGrid');
     }
 });
 
 
 closeText.addEventListener('click',()=>{
     SearchRec.classList.remove('showSearch');
+
 })
 Close.addEventListener('click',()=>{
     Search.value='';

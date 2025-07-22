@@ -195,7 +195,7 @@
     "WinnerName":"H. Robert Horvitz",
     "Birthday":"1947-05-08",
     "AwardReason":"for discoveries concerning genetic regulation of organ development and programmed cell death",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/22.jpg"
   },
   {
     "Id": 23,
@@ -204,7 +204,7 @@
     "WinnerName":"John E. Sulston",
     "Birthday":"1942-03-27",
     "AwardReason":"for discoveries concerning genetic regulation of organ development and programmed cell death",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/23.jpg"
   },
   {
     "Id": 24,
@@ -213,7 +213,7 @@
     "WinnerName":"Jimmy Carter",
     "Birthday":"1924-10-01",
     "AwardReason":"for his decades of untiring effort to find peaceful solutions to international conflicts, to advance democracy and human rights, and to promote economic and social development",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/24.jpg"
   },
   {
     "Id": 25,
@@ -222,7 +222,7 @@
     "WinnerName":"John B. Fenn",
     "Birthday":"1917-06-15",
     "AwardReason":"for the development of methods for identification and structure analyses of biological macromolecules",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/25.webp"
   },
   {
     "Id": 26,
@@ -231,7 +231,7 @@
     "WinnerName":"Koichi Tanaka",
     "Birthday":"1959-08-03",
     "AwardReason":"for the development of methods for identification and structure analyses of biological macromolecules",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/26.avif"
   },
   {
     "Id": 27,
@@ -240,7 +240,7 @@
     "WinnerName":"Kurt Wuthrich",
     "Birthday":"1938-10-04",
     "AwardReason":"for the development of methods for identification and structure analyses of biological macromolecules",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/27.jpg"
   },
   {
     "Id": 28,
@@ -249,7 +249,7 @@
     "WinnerName":"Raymond Davis Jr.",
     "Birthday":"1914-10-14",
     "AwardReason":"for pioneering contributions to astrophysics, in particular for the detection of cosmic neutrinos",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/28.jpg"
   },
   {
     "Id": 29,
@@ -258,7 +258,7 @@
     "WinnerName":"Masatoshi Koshiba",
     "Birthday":"1926-09-19",
     "AwardReason":"for pioneering contributions to astrophysics, in particular for the detection of cosmic neutrinos",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/29.jpg"
   },
 
   {
@@ -268,7 +268,7 @@
     "WinnerName":"Paul Lauterbur",
     "Birthday":"1929-05-06",
     "AwardReason":"for discoveries concerning magnetic resonance imaging",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/30.jpg"
   },
   {
     "Id": 31,
@@ -277,7 +277,7 @@
     "WinnerName":"Peter Mansfield",
     "Birthday":"1933-10-09",
     "AwardReason":"for discoveries concerning magnetic resonance imaging",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/31.avif"
   },
   {
     "Id": 32,
@@ -286,7 +286,7 @@
     "WinnerName":"Shirin Ebadi",
     "Birthday":"1947-06-21",
     "AwardReason":"for her efforts for democracy and human rights, especially for women's and children's rights",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/32.webp"
   },
   {
     "Id": 33,
@@ -295,7 +295,7 @@
     "WinnerName":"Peter Agre",
     "Birthday":"1949-01-30",
     "AwardReason":"for discoveries concerning channels in cell membranes",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/33.jpg"
   },
   {
     "Id": 34,
@@ -304,7 +304,7 @@
     "WinnerName":"Roderick MacKinnon",
     "Birthday":"1956-02-19",
     "AwardReason":"for discoveries concerning channels in cell membranes",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/34.png"
   },
   {
     "Id": 35,
@@ -313,7 +313,7 @@
     "WinnerName":"Alexei A. Abrikosov",
     "Birthday":"1928-06-25",
     "AwardReason":"for pioneering contributions to the theory of superconductors and superfluids",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/35.jpg"
   },
   {
     "Id": 36,
@@ -322,7 +322,7 @@
     "WinnerName":"Vitaly L. Ginzburg",
     "Birthday":"1916-10-04",
     "AwardReason":"for pioneering contributions to the theory of superconductors and superfluids",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/36.jpg"
   },
   {
     "Id": 37,
@@ -331,7 +331,7 @@
     "WinnerName":"Anthony J. Leggett",
     "Birthday":"1938-03-26",
     "AwardReason":"for pioneering contributions to the theory of superconductors and superfluids",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/37.webp"
   },
   {
     "Id": 38,
@@ -340,7 +340,7 @@
     "WinnerName":"Richard Axel",
     "Birthday":"1946-07-02",
     "AwardReason":"for discoveries of odorant receptors and the organization of the olfactory system",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/38.jpg"
 
   },
   {
@@ -350,7 +350,7 @@
     "WinnerName":"Linda B. Buck",
     "Birthday":"1947-01-29",
     "AwardReason":"for discoveries of odorant receptors and the organization of the olfactory system",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/39.webp"
   },
   {
     "Id": 40,
@@ -359,7 +359,7 @@
     "WinnerName":"Wangari Maathai",
     "Birthday":"1940-04-01",
     "AwardReason":"for her contribution to sustainable development, democracy and peace",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/40.webp"
   },
   {
     "Id": 41,
@@ -368,7 +368,7 @@
     "WinnerName":"Aaron Ciechanover",
     "Birthday":"1947-10-01",
     "AwardReason":"for the discovery of ubiquitin-mediated protein degradation",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/41.jpg"
   },
   {
     "Id": 42,
@@ -377,7 +377,7 @@
     "WinnerName":"Avram Hershko",
     "Birthday":"1937-12-31",
     "AwardReason":"for the discovery of ubiquitin-mediated protein degradation",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/42.jpg"
   },
   {
     "Id": 43,
@@ -386,7 +386,7 @@
     "WinnerName":"Irwin Rose",
     "Birthday":"1926-07-16",
     "AwardReason":"for the discovery of ubiquitin-mediated protein degradation",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/43.jpg"
   },
   {
     "Id": 44,
@@ -395,7 +395,7 @@
     "WinnerName":"David J. Gross",
     "Birthday":"1941-02-19",
     "AwardReason":"for the discovery of asymptotic freedom in the theory of the strong interaction",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/44.webp"
   },
   {
     "Id": 45,
@@ -404,7 +404,7 @@
     "WinnerName":"H. David Politzer",
     "Birthday":"1949-08-31",
     "AwardReason":"for the discovery of asymptotic freedom in the theory of the strong interaction",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/45.jpg"
   },
   {
     "Id": 46,
@@ -413,7 +413,7 @@
     "WinnerName":"Frank Wilczek",
     "Birthday":"1951-05-15",
     "AwardReason":"for the discovery of asymptotic freedom in the theory of the strong interaction",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/46.jpg"
   },
   {
     "Id": 47,
@@ -422,7 +422,7 @@
     "WinnerName":"Barry J. Marshall",
     "Birthday":"1951-09-30",
     "AwardReason":"for the discovery of the bacterium Helicobacter pylori and its role in gastritis and peptic ulcer disease",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/47.jpeg"
   },
   {
     "Id": 48,
@@ -431,7 +431,7 @@
     "WinnerName":"J. Robin Warren",
     "Birthday":"1937-06-11",
     "AwardReason":"for the discovery of the bacterium Helicobacter pylori and its role in gastritis and peptic ulcer disease",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/48.jpg"
   },
 
   {
@@ -441,7 +441,7 @@
     "WinnerName":"Mohamed ElBaradei",
     "Birthday":"1942-06-17",
     "AwardReason":"for efforts to prevent nuclear energy from being used for military purposes",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/49.jpg"
   },
   {
     "Id": 50,
@@ -450,7 +450,7 @@
     "WinnerName":"Yves Chauvin",
     "Birthday":"1930-10-10",
     "AwardReason":"for the development of the metathesis method in organic synthesis",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/50.avif"
   },
   {
     "Id": 51,
@@ -459,7 +459,7 @@
     "WinnerName":"Robert H. Grubbs",
     "Birthday":"1942-02-27",
     "AwardReason":"for the development of the metathesis method in organic synthesis",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/51.jpg"
   },
   {
     "Id": 52,
@@ -468,7 +468,7 @@
     "WinnerName":"Richard R. Schrock",
     "Birthday":"1945-01-04",
     "AwardReason":"for the development of the metathesis method in organic synthesis",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/52.jpg"
   },
   {
     "Id": 53,
@@ -477,7 +477,7 @@
     "WinnerName":"Roy J. Glauber",
     "Birthday":"1925-09-01",
     "AwardReason":"for contributions to the quantum theory of optical coherence",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/53.jpg"
   },
   {
     "Id": 54,
@@ -486,7 +486,7 @@
     "WinnerName":"John L. Hall",
     "Birthday":"1934-08-21",
     "AwardReason":"for contributions to the development of laser-based precision spectroscopy",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/54.jpg"
   },
   {
     "Id": 55,
@@ -495,7 +495,7 @@
     "WinnerName":"Theodor W. Hansch",
     "Birthday":"1941-10-30",
     "AwardReason":"for contributions to the development of laser-based precision spectroscopy",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/55.jpg"
   },
   {
     "Id": 56,
@@ -504,7 +504,7 @@
     "WinnerName":"Andrew Z. Fire",
     "Birthday":"1959-04-27",
     "AwardReason":"for the discovery of RNA interference - gene silencing by double-stranded RNA",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/56.jpg"
   },
   {
     "Id": 57,
@@ -513,7 +513,7 @@
     "WinnerName":"Craig C. Mello",
     "Birthday":"1960-10-18",
     "AwardReason":"for the discovery of RNA interference - gene silencing by double-stranded RNA",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/57.jpeg"
   },
   {
     "Id": 58,
@@ -522,7 +522,7 @@
     "WinnerName":"Muhammad Yunus",
     "Birthday":"1940-06-28",
     "AwardReason":"for advancing economic and social opportunities for the poor, especially through microcredit",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/58.webp"
   },
 
   {
@@ -532,7 +532,7 @@
     "WinnerName":"Roger D. Kornberg",
     "Birthday":"1947-04-24",
     "AwardReason":"for studies of the molecular basis of eukaryotic transcription",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/59.jpeg"
   },
   {
     "Id": 60,
@@ -541,7 +541,7 @@
     "WinnerName":"John C. Mather",
     "Birthday":"1946-08-07",
     "AwardReason":"for the discovery of the blackbody form and anisotropy of the cosmic microwave background radiation",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/60.webp"
   },
   {
     "Id": 61,
@@ -550,7 +550,7 @@
     "WinnerName":"George F. Smoot",
     "Birthday":"1945-02-20",
     "AwardReason":"for the discovery of the blackbody form and anisotropy of the cosmic microwave background radiation",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/61.jpg"
   },
   {
     "Id": 62,
@@ -559,7 +559,7 @@
     "WinnerName":"Mario R. Capecchi",
     "Birthday":"1937-10-06",
     "AwardReason":"for discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/62.jpg"
   },
   {
     "Id": 63,
@@ -568,7 +568,7 @@
     "WinnerName":"Martin J. Evans",
     "Birthday":"1941-01-01",
     "AwardReason":"for discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/63.jpeg"
   },
   {
     "Id": 64,
@@ -577,7 +577,7 @@
     "WinnerName":"Oliver Smithies",
     "Birthday":"1925-06-23",
     "AwardReason":"for discoveries of principles for introducing specific gene modifications in mice by the use of embryonic stem cells",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/64.jpg"
   },
 
   {
@@ -587,7 +587,7 @@
     "WinnerName":"Albert Arnold (Al) Gore Jr.",
     "Birthday":"1948-03-31",
     "AwardReason":"for efforts to build up and disseminate greater knowledge about man-made climate change",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/65.webp"
   },
   {
     "Id": 66,
@@ -596,7 +596,7 @@
     "WinnerName":"Gerhard Ertl",
     "Birthday":"1936-10-10",
     "AwardReason":"for studies of chemical processes on solid surfaces",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/66.webp"
   },
   {
     "Id": 67,
@@ -605,7 +605,7 @@
     "WinnerName":"Albert Fert",
     "Birthday":"1938-03-07",
     "AwardReason":"for the discovery of giant magnetoresistance",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/67.jpg"
   },
   {
     "Id": 68,
@@ -614,7 +614,7 @@
     "WinnerName":"Peter Grunberg",
     "Birthday":"1939-05-18",
     "AwardReason":"for the discovery of giant magnetoresistance",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/68.jpg"
   },
   {
     "Id": 69,
@@ -623,7 +623,7 @@
     "WinnerName":"Harald zur Hausen",
     "Birthday":"1936-03-11",
     "AwardReason":"for the discovery of human papilloma viruses causing cervical cancer",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/69.webp"
   },
   {
     "Id": 70,
@@ -632,7 +632,7 @@
     "WinnerName":"Francoise Barre-Sinoussi",
     "Birthday":"1947-07-30",
     "AwardReason":"for the discovery of human immunodeficiency virus",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/70.jpg"
   },
   {
     "Id": 71,
@@ -641,7 +641,7 @@
     "WinnerName":"Luc Montagnier",
     "Birthday":"1932-08-18",
     "AwardReason":"for the discovery of human immunodeficiency virus",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/71.webp"
   },
   {
     "Id": 72,
@@ -650,7 +650,7 @@
     "WinnerName":"Martti Ahtisaari",
     "Birthday":"1937-06-23",
     "AwardReason":"for important efforts, on several continents and over more than three decades, to resolve international conflicts",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/72.webp"
   },
   {
     "Id": 73,
@@ -659,7 +659,7 @@
     "WinnerName":"Osamu Shimomura",
     "Birthday":"1928-08-27",
     "AwardReason":"for the discovery and development of the green fluorescent protein, GFP",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/73.jpg"
   },
   {
     "Id": 74,
@@ -668,7 +668,7 @@
     "WinnerName":"Martin Chalfie",
     "Birthday":"1947-01-15",
     "AwardReason":"for the discovery and development of the green fluorescent protein, GFP",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/74.jpg"
   },
   {
     "Id": 75,
@@ -677,7 +677,7 @@
     "WinnerName":"Roger Y. Tsien",
     "Birthday":"1952-02-01",
     "AwardReason":"for the discovery and development of the green fluorescent protein, GFP",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/75.jpg"
   },
   {
     "Id": 76,
@@ -686,7 +686,7 @@
     "WinnerName":"Yoichiro Nambu",
     "Birthday":"1921-01-18",
     "AwardReason":"for the discovery of the mechanism of spontaneous broken symmetry in subatomic physics",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/76.jpg"
   },
   {
     "Id": 77,
@@ -695,7 +695,7 @@
     "WinnerName":"Makoto Kobayashi",
     "Birthday":"1944-04-07",
     "AwardReason":"for the discovery of the origin of the broken symmetry which predicts the existence of at least three families of quarks in nature",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/77.jpg"
   },
   {
     "Id": 78,
@@ -704,7 +704,7 @@
     "WinnerName":"Toshihide Maskawa",
     "Birthday":"1940-02-07",
     "AwardReason":"for the discovery of the origin of the broken symmetry which predicts the existence of at least three families of quarks in nature",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/78.webp"
   },
   {
     "Id": 79,
@@ -713,7 +713,7 @@
     "WinnerName":"Elizabeth H. Blackburn",
     "Birthday":"1948-11-26",
     "AwardReason":"for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/79.jpeg"
   },
   {
     "Id": 80,
@@ -722,7 +722,7 @@
     "WinnerName":"Carol W. Greider",
     "Birthday":"1961-04-15",
     "AwardReason":"for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/80.webp"
   },
   {
     "Id": 81,
@@ -731,7 +731,7 @@
     "WinnerName":"Jack W. Szostak",
     "Birthday":"1952-11-09",
     "AwardReason":"for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/81.webp"
   },
   {
     "Id": 82,
@@ -740,7 +740,7 @@
     "WinnerName":"Barack H. Obama",
     "Birthday":"1961-08-04",
     "AwardReason":"for extraordinary efforts to strengthen international diplomacy and cooperation between peoples",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/82.jpg"
   },
   {
     "Id": 83,
@@ -749,7 +749,7 @@
     "WinnerName":"Venkatraman Ramakrishnan",
     "Birthday":"1952-01-01",
     "AwardReason":"for studies of the structure and function of the ribosome",
-    "Image":"assets/Pictures/3.jpg"
+    "Image":"assets/Pictures/83.jpg"
   },
   {
     "Id": 84,

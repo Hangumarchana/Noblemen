@@ -10,7 +10,8 @@
 
 body{
     background-color: #fdfdfd;
-    overflow-x: hidden;
+
+
 }
 #mainText{
     font-family: 'Playfair Display', serif;
@@ -316,6 +317,8 @@ body{
 .searchWrapper {
     display: flex;
     align-items: center;
+    position: relative;
+    left:5vw;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 0 1vw;
@@ -350,6 +353,24 @@ body{
     display:flex;
     margin-left: 1vw;
     font-weight: 100;
+    position: relative;
+    top:0;
+    left:6vw
+}
+.No{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: #ff0000;
+    font-family: 'AvenirLight', sans-serif;
+
+    position: relative;
+    left:-30vw;
+
+
 }
 #closeText:hover{
 
@@ -369,6 +390,70 @@ body{
     font-weight: lighter;
     letter-spacing: 1px;
 }
+.FullShow{
+    height: 100vh;
+}
+.searchBar1{
+    position: relative;
+    top:-20vh;
+
+}
+
+.showGrid{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    margin:0 auto;
+    width: 90vw;
+    height: 70vh;
+    position: absolute;
+    top: 30vh;
+    overflow-y: auto;
+    justify-content: center;
+
+
+}
+.SearchCard {
+
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin: 10px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.SearchCard:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.SearchDiv {
+    width: 8vw;
+    height: 16vh;
+    overflow: hidden;
+    margin-left: 4vw;
+
+
+}
+
+.SearchDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+
 #imageSlider {
     position: relative;
     overflow: hidden;
@@ -376,6 +461,13 @@ body{
     height: 100vh;
     padding-top: 7vh;
     z-index: -1;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:5vw;
+
 }
 
 #slider {
@@ -1025,4 +1117,3 @@ footer{
     position: relative;
     top:90vh;
 }
-
