@@ -213,7 +213,82 @@
 
 
 </header>
-<footer>
+<div id="personDetails"></div>
+<script>
+
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+
+  function renderPersonDetails(person) {
+    const container = document.getElementById('personDetails');
+    container.innerHTML = `
+
+        <div class="infoDiv">
+            <img class="infoImg" src="${person.Image}" alt="${person.WinnerName}"></img>
+
+        </div>
+        <div class="infoDiv1">
+          <p class="facts">Facts</p>
+          <p class="infoName"><strong>Name:</strong>${person.WinnerName}</p>
+
+          <p  class="infoYear"><strong>Award Year:</strong> ${person.Year}</p>
+          <p class="infoCat"><strong>Category:</strong> ${person.Category}</p>
+          <p class="infoBirth"><strong>Birthday:</strong> ${person.Birthday}</p>
+          <p class="infoReason"><strong>Award Reason:</strong> ${person.AwardReason}</p>
+
+        </div>
+
+      `;
+  }
+
+
+  async function loadPersonDetails() {
+    try {
+      const nameFromURL = getQueryParam('name');
+      if (!nameFromURL) {
+        document.getElementById('personDetails').innerText = 'No name provided in URL.';
+        return;
+      }
+
+      const response = await fetch('Data.json');
+      if (!response.ok) throw new Error('Failed to load data');
+      const data = await response.json();
+
+      const decodedName = decodeURIComponent(nameFromURL);
+      const person = data.find(p => p.WinnerName.toLowerCase() === decodedName.toLowerCase());
+
+      if (!person) {
+        document.getElementById('personDetails').innerText = 'Winner not found.';
+        return;
+      }
+
+      renderPersonDetails(person);
+    } catch (err) {
+      console.error(err);
+      document.getElementById('personDetails').innerText = 'Error loading data.';
+    }
+  }
+
+
+  window.addEventListener('DOMContentLoaded', loadPersonDetails);
+  let main2 = document.getElementById('main');
+
+  if (main2) {
+    console.log('main2');
+    main2.addEventListener('click', function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      // Force navigation
+      window.location.href = 'index.html';
+    });
+  }
+
+</script>
+<footer style="top:0;z-index: 15;">
   <div id="footerRec">
 
 
@@ -234,7 +309,7 @@
 
 
     <nav id="footerNav">
-      <a href="#">Home</a>
+      <a href="index.js">Home</a>
       <a href="#"  class="catSelector">Peace</a>
       <a href="#"  class="catSelector" >Medicine</a>
       <a href="#"  class="catSelector" >Physics</a>
@@ -269,3 +344,4 @@
 </footer>
 </body>
 </html>
+

@@ -19,7 +19,7 @@ async function fetchData() {
     }
 }
 
-// Render the filtered data
+
 function renderGrid(data) {
     SearchGrid.innerHTML = "";
 
@@ -30,11 +30,11 @@ function renderGrid(data) {
 
     data.forEach(item => {
         SearchGrid.innerHTML += `
-            <div class="SearchCard">
+            <div class="SearchCard ">
                 <div class="SearchDiv">
                     <img src="${item.Image}" alt="${item.WinnerName}">
                 </div>
-                <div class="text">
+                <div class="text data2">
                                 <p class="TopCategory" id="c1">${item.Category}</p>
                                 <p class="Winner" id="c2">${item.WinnerName}</p>
                                 <p class="Reason" id="c3">${item.AwardReason}</p>

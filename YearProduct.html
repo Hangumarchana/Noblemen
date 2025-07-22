@@ -2,16 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Noblemen</title>
+    <title>Nodlemen</title>
     <link rel="stylesheet" href="Home.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js" defer></script>
-    <script src="slider.js" defer></script>
     <script src="header.js" defer></script>
-    <script src="HomeDataLoader.js" defer></script>
+
     <script src="SearchReach.js" defer></script>
     <script src="YearRedirection.js" defer></script>
-    <script src="CategorySelector.js" defer></script>
     <script src="ProductInfo.js" defer></script>
 
 
@@ -158,22 +156,22 @@
     </div>
     <div id="CategoryRec">
         <ul id="CategoryDropDown">
-            <li><a href="#" class="catSelector">Chemistry</a>
-                <div id="cat1" class="catRec ">
+            <li><a href="#">Chemistry</a>
+                <div id="cat1" class="catRec">
 
                 </div>
             </li>
-            <li><a href="#"  class="catSelector">Physics</a>
+            <li><a href="#">Physics</a>
                 <div id="cat2" class="catRec">
 
                 </div>
             </li>
-            <li><a href="#"  class="catSelector">Medicine</a>
+            <li><a href="#">Medicine</a>
                 <div id="cat3" class="catRec" >
 
                 </div>
             </li>
-            <li><a href="#"  class="catSelector">Peace</a>
+            <li><a href="#">Peace</a>
                 <div id="cat4" class="catRec">
 
                 </div>
@@ -181,7 +179,7 @@
 
 
         </ul>
-        <button id="viewAll"  class="catSelector">Show All Results</button>
+        <button id="viewAll">Show All Results</button>
     </div>
 
     <div id="SearchRec">
@@ -213,133 +211,17 @@
 
 
 </header>
-<div id="imageSlider">
-    <div id="slider">
-        <img src="assets/Pics/3.png" alt="Slider1" />
-        <img src="assets/Pics/4.png" alt="Slider2" />
-        <img src="assets/Pics/5.png" alt="Slider3" />
-        <img src="assets/Pics/6.png" alt="Slider4" />
-    </div>
-
-
-    <button class="arrow left">&#10094;</button>
-    <button class="arrow right">&#10095;</button>
-
-
-    <div id="dots">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-    </div>
-</div>
-<div id="categorySelector">
-    <div id="ChemDiv" class="rec1" >
-        <img id="ChemImg" src="assets/Pics/t2.png" alt="Chem"/>
-        <div id="chemSubDiv" class="rec2">
-            <p  class="catSelector" >Chemistry</p>
-
-
-        </div>
-
-
-
+    <div id="YearNumber">
 
 
     </div>
-
-    <div id="PhyDiv" class="rec1">
-        <img id="PhyImg" src="assets/Pics/t4.png" alt="Phy"/>
-        <div id="PhySubDiv" class="rec2">
-            <p  class="catSelector" >Physics</p>
-
-        </div>
-
-
-
-    </div>
-
-    <div id="MedDiv" class="rec1">
-        <img id="MedImg" src="assets/Pics/t3.png" alt="Med"/>
-        <div id="MedSubDiv" class="rec2">
-            <p  class="catSelector" >Medicine</p>
-
-        </div>
-
-
-
-    </div>
-
-    <div id="PeaDiv" class="rec1">
-        <img id="PeaImg" src="assets/Pics/t1.png" alt="Pea"/>
-        <div id="PeaSubDiv" class="rec2">
-            <p  class="catSelector" >Peace</p>
-
-        </div>
-
-
+    <div id="YearFilter">
 
     </div>
 
 
-</div>
 
-<hr class="hr1">
-<div class="poster">
-    <img class="posterImg" src="assets/Pics/0.png" alt="poster"/>
-    <button class="posterBtn">Explore</button>
-
-</div>
-<hr id="hr1">
-<p id="TopHeading">Top Picks</p>
-
-
-
-<div id="TopPicks">
-    <div id="TopGrid">
-
-    </div>
-
-
-</div>
-
-<hr id="hr2">
-<div id="poster2" class="poster">
-    <img class="posterImg" src="assets/Pics/1.png" alt="poster"/>
-    <button class="posterBtn">Explore</button>
-
-</div>
-<hr id="hr3">
-<p id="TopHeading1">Hot Winners</p>
-
-<div id="HotWinner">
-    <div id="HotGrid">
-
-    </div>
-
-</div>
-<hr id="hr4">
-<div id="poster3" class="poster">
-    <img class="posterImg" src="assets/Pics/2.png" alt="poster"/>
-    <button class="posterBtn">Explore</button>
-
-</div>
-<hr id="hr5">
-<p id="TopHeading2">Recent Winners</p>
-
-<div id="RecentWinner">
-    <div id="RecentGrid">
-
-    </div>
-
-</div>
-<hr id="hr6">
-<video autoplay muted loop playsinline class="fullVideo">
-    <source src="assets/Videos/rashiii.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-<hr id="hr7">
-<footer>
+<footer style="top:10vh;">
     <div id="footerRec">
 
 
@@ -361,11 +243,11 @@
 
         <nav id="footerNav">
             <a href="#">Home</a>
-            <a href="#"  class="catSelector">Peace</a>
-            <a href="#"  class="catSelector" >Medicine</a>
-            <a href="#"  class="catSelector" >Physics</a>
-            <a href="#"  class="catSelector" >Chemistry</a>
-            <a href="#"  class="catSelector">About</a>
+            <a href="#">Peace</a>
+            <a href="#">Medicine</a>
+            <a href="#">Physics</a>
+            <a href="#">Chemistry</a>
+            <a href="#">About</a>
 
 
         </nav>
